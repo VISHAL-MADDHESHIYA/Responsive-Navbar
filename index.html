@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevSpace | Modern Web Solutions</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Dev<span>Space</span>.</a>
+      
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    
+    <!-- Home / Hero Section -->
+    <section id="home" class="section hero">
+      <div class="container hero-content">
+        <h1>Build Stunning Websites with <span>DevSpace</span></h1>
+        <p>We create modern, responsive, and high-performance web experiences that help your business grow.</p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary">Our Services</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>We turn ideas into digital reality.</h3>
+            <p>Founded in 2024, DevSpace is a passionate team of developers and designers. Our mission is to build web applications that are not only visually appealing but also fast, accessible, and user-friendly.</p>
+            <p>Whether you are a startup or an established enterprise, we have the skills to bring your vision to life.</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-box">
+              <h4>50+</h4>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat-box">
+              <h4>30+</h4>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">What we can do for you</p>
+        
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <i class="fas fa-code service-icon"></i>
+            <h3>Web Development</h3>
+            <p>Fast, secure, and scalable websites built with modern technologies like HTML5, CSS3, and JavaScript.</p>
+          </div>
+          
+          <!-- Service 2 -->
+          <div class="service-card">
+            <i class="fas fa-paint-brush service-icon"></i>
+            <h3>UI/UX Design</h3>
+            <p>Beautiful, intuitive interfaces designed to provide the best possible user experience.</p>
+          </div>
+          
+          <!-- Service 3 -->
+          <div class="service-card">
+            <i class="fas fa-mobile-alt service-icon"></i>
+            <h3>Responsive Design</h3>
+            <p>Websites that look and work perfectly on all devices, from desktops to mobile phones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">Have a project in mind? Let's talk.</p>
+        
+        <div class="contact-container">
+          <form class="contact-form">
+            <div class="input-group">
+              <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+              <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+              <textarea rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <div class="nav-overlay" id="nav-overlay"></div>
+  <script src="script.js"></script>
+</body>
+</html>
